@@ -77,3 +77,16 @@ Then place those images inside the `assets` folder.
 - Add a proper domain.
 - Connect the estimate form to Formspree, Netlify Forms, EmailJS or a backend later.
 - Add Google Business Profile link when available.
+
+## Update note - mobile fitting fix
+
+This version includes a mobile scroll-stability patch:
+
+- Removed horizontal carousel behaviour from service and work sections on mobile.
+- Converted mobile service cards to a compact two-column grid.
+- Converted project cards to a stable vertical mobile layout.
+- Added overflow protection so the page does not move sideways while scrolling.
+- Reduced header, trust cards, proof card, process card, and sticky CTA widths for smaller phones.
+- Kept hero image slider and testimonial slider working.
+
+If testing after uploading, hard refresh the browser once: Ctrl + F5 on desktop or clear browser cache on mobile.
